@@ -121,7 +121,7 @@
 }
 
 .mT-4 {
-  margin-top:4rem !important;
+  margin-top: 4rem !important;
 }
 
 .mT-5 {
@@ -191,9 +191,8 @@
 }
 
 .align-items-start {
-  
   align-items: center;
-  @include for-size('tablet-landscape-up'){
+  @include for-size('tablet-landscape-up') {
     align-items: flex-start;
   }
 }
@@ -243,12 +242,13 @@
 }
 
 // ! Font-size
-.fs-1 {
-  font-size: 1rem;
-}
 
 .fs-small {
   font-size: 1.7rem;
+}
+
+.fs-1 {
+  font-size: 1rem;
 }
 
 .fs-2 {
@@ -278,21 +278,23 @@
 .fs-7 {
   font-size: 7rem;
 }
+
 // ! Font weight
-.fw-300 {
+.fw-sm {
   font-weight: 300;
 }
 
-.fw-600 {
-  font-weight: 600;
+.fw-md {
+  font-weight: 400;
 }
 
 .fw-bold {
   font-weight: bold;
 }
+
 // ! Color
 .c-black {
-  color: $c-black-dark;
+  color: $c-black;
 }
 
 .c-white {
@@ -300,96 +302,22 @@
 }
 
 .c-main {
-  color: $c-green;
+  color: $main-color;
 }
 
-.c-dark-blue {
-  color: $dark-blue;
-}
-
-.c-secondary {
-  color: $c-green-dark;
-}
-
-.c-main-blue {
-  color: $main-blue;
-}
-
-.c-blue-secondary {
-  color: $sedoncary-blue;
-}
-
-.c-black-dark {
-  color: $c-black-dark;
-}
 // ! bg
 .bg-white {
   background-color: $c-white;
-}
-
-.bg-green {
-  background-color: $c-green;
-}
-
-.bg-green2 {
-  background-color: $green;
-}
-
-.bg-green-darker {
-  background-color: $c-green-darker;
-}
-
-.bg-green-dark {
-  background-color: $c-green-dark;
-}
-
-.bg-blue-main {
-  background-color: $main-blue;
-}
-
-.bg-blue-secondary {
-  background-color: $sedoncary-blue;
-}
-
-.bg-light-blue {
-  background-color: $light-blue;
-}
-
-.bg-blue-dark {
-  background-color: $dark-blue;
-}
-
-.bg-multicolor {
-  background: url('../images/background/fondo1.jpg') no-repeat center
-    center / cover;
-}
-
-.bg-blue-green {
-  background: linear-gradient(to top, $secondary-blue, $c-green);
 }
 
 .bg-black {
   background: black;
 }
 
-.bg-black-2 {
-  background: url('../images/background/fondo3.jpg') no-repeat center center /
-    cover;
+.bg-secondary {
+  background-color: $secondary-color;
 }
 
-.bg-black-ya {
-  background: url('../images/background/fondo_2.jpg') no-repeat center center /
-    cover;
-}
-
-.bg-ya {
-  background: url('../images/background/fondo2.jpg') no-repeat center
-    center / cover;
-}
-
-.bg-green-light {
-  background-color: $green-light;
-}
 // ! Decoration
 .text-decoration-none {
   text-decoration: none;
@@ -420,7 +348,7 @@
 
 // ! border
 .border-dark {
-  box-shadow: 0 0 0.7rem $c-black;
+  box-shadow: 0 0 0.7rem $c-gray-dark;
 }
 
 // ! width

@@ -1,0 +1,24 @@
+.logo {
+  width: 100%;
+
+  &--big {
+    max-width: 50rem;
+  }
+}
+
+.homeMainContent {
+  &__box {
+    height: 60rem;
+
+    background-position: center center;
+    background-size: cover;
+
+    &--1 {
+      background-image: url(../images/impulsaYA/Mesa\ de\ trabajo\ 4.jpg);
+    }
+
+    &--2 {
+      background-image: url(../images/impulsaYA/Mesa\ de\ trabajo\ 5.jpg);
+    }
+  }
+}

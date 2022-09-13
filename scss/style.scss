@@ -1,12 +1,14 @@
 @use 'base/reset';
 @use 'base/utilities';
 
-@use "layout/gridSystem";
-@use "layout/topNav";
+@use 'layout/gridSystem';
+@use 'layout/topNav';
 
 @use 'components/btn';
 @use 'components/columns';
 @use 'components/flexContainer';
 @use 'components/modal';
 
-@use "layout/footer";
+@use 'pages/home';
+
+@use 'layout/footer';

@@ -51,7 +51,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      background: $c-green;
+      // background: $c-green;
       list-style: none;
       transition: transform 1s;
 
@@ -67,7 +67,6 @@
       & > li {
         & > a {
           font-size: 2rem;
-          color: $c-black-dark;
           text-decoration: none;
           text-transform: uppercase;
 
@@ -88,7 +87,7 @@
           &::after {
             content: '+';
             font-size: 3rem;
-            color: $c-black-dark;
+            color: $c-black;
           }
 
           @include for-size('tablet-landscape-up') {
@@ -107,13 +106,13 @@
           transition: max-height 0.5s ease-in-out;
           padding-left: 3rem;
 
-          backdrop-filter: blur(.5rem);
+          backdrop-filter: blur(0.5rem);
 
           @include for-size('tablet-landscape-up') {
             max-height: unset;
             position: absolute;
             display: none;
-            background: rgba($c-green, 0.9);
+            // background: rgba($c-green, 0.9);
             grid-template-columns: repeat(2, 1fr);
             transform: translate(-30rem);
             padding: 5rem 3rem 2rem 3rem;
@@ -121,7 +120,7 @@
           }
 
           a {
-            color: $c-black-dark;
+            color: $c-black;
             text-decoration: none;
             font-size: 1.7rem;
           }
@@ -143,10 +142,10 @@
   &__input {
     background: none;
     border: none;
-    border-bottom: 1px solid $c-black-dark;
+    border-bottom: 1px solid $c-black;
     width: 17rem;
     padding: 1rem;
-    color: $c-black-dark;
+    color: $c-black;
 
     &:focus {
       outline: none;
@@ -156,9 +155,9 @@
   &__button {
     background: none;
     border: none;
-    color: $c-black-dark;
+    color: $c-black;
     margin-left: -1rem;
-    border-bottom: 1px solid $c-black-dark;
+    border-bottom: 1px solid $c-black;
     padding: 1rem;
   }
 

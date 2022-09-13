@@ -16,16 +16,7 @@
     border-radius: 1.5rem;
   }
 
-  &--carrito-img {
-    // width: 9rem;
-    height: 10rem !important;
-  }
-
   &--box-shadow {
-    box-shadow: 0 0 2rem $c-black;
-  }
-
-  &--multicolor {
-    background: linear-gradient(to right, $main-blue, $c-green);
+    box-shadow: 0 0 2rem $c-gray-dark;
   }
 }
